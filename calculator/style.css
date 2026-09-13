@@ -7,7 +7,6 @@
 .container{
     background-color: black;
     margin: auto;
-    /* padding: 5px; */
     width: 350px;
     height: 580px;
 
@@ -40,7 +39,6 @@
     height: 25%;
     width: 92%;
     margin: auto;
-    /* background-color: bisque; */
     border-bottom: 1px solid rgb(182, 182, 182);
 }
 
@@ -48,14 +46,10 @@
 .topScreen{
     height: 50%;
     width: 100%;
-    /* padding-left: 10px; */
-    /* padding-right: 10px; */
     font-size: 2rem;
     color: #ffff;
     text-align: right;
-    /* border-radius: 10px 10px 0 0; */
     padding-top: 10px;
-    /* background-color: red; */
     font-family: sans-serif;
 }
 
@@ -66,9 +60,7 @@
     font-size: 2rem;
     color: #ffff;
     text-align: right;
-    /* border-radius: 10px 10px 0 0; */
     padding-top: 10px;
-    /* background-color: rgb(134, 46, 46); */
     font-family: sans-serif;
 
 }
@@ -80,7 +72,6 @@
     height: 65%;
 }
 .buttons-for-all{
-    /* background-color: red; */
     width: 98%;
     height: 100%;
     display: grid;
@@ -100,8 +91,7 @@
     color: aliceblue;
 }
 
-.btn-operator, .btn-oprite, .btn-oprito {
-    /* background-color: rgb(75, 75, 221); */
+.btn-operator, .btn-cancel, .btn-delete {
     color: rgb(9, 175, 56);
 }
 .equal{
