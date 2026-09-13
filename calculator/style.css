@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    margin: auto;
+    /* padding: 5px; */
+    width: 350px;
+    height: 580px;
+
+    
+}
+
+/* Dark Theme for the container */
+.container.dark {
+  background-color: #ffffff;
+  color: #ffffff; /* Turns all text inside white */
+}
+
+/* Optional: If your buttons or screens need specific tweaks in dark mode */
+.container.dark .btn {
+  background-color: #ffffff;
+  color: #000000;
+}
+.container.dark .screens div {
+    background-color: #ffffff;
+  color: #000000;
+}
+
+.theme{
+    height: 10%;
+
+}
+
+/* styles for screens container */
+.screens{
+    height: 25%;
+    width: 92%;
+    margin: auto;
+    /* background-color: bisque; */
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+/* styles for top screen */
+.topScreen{
+    height: 50%;
+    width: 100%;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    font-size: 2rem;
+    color: #ffff;
+    text-align: right;
+    /* border-radius: 10px 10px 0 0; */
+    padding-top: 10px;
+    /* background-color: red; */
+    font-family: sans-serif;
+}
+
+/* styles for bottom screen */
+.bottomScreen{
+    height: 50%;
+    width: 100%;
+    font-size: 2rem;
+    color: #ffff;
+    text-align: right;
+    /* border-radius: 10px 10px 0 0; */
+    padding-top: 10px;
+    /* background-color: rgb(134, 46, 46); */
+    font-family: sans-serif;
+
+}
+
+
+/* styles for buttons */
+.btnContainer{
+    width: 100%;
+    height: 65%;
+}
+.buttons-for-all{
+    /* background-color: red; */
+    width: 98%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin: auto;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 1.5rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    background: rgb(45, 45, 45);
+    color: aliceblue;
+}
+
+.btn-operator, .btn-oprite, .btn-oprito {
+    /* background-color: rgb(75, 75, 221); */
+    color: rgb(9, 175, 56);
+}
+.equal{
+    grid-row: 4/6;
+    grid-column: 4;
+    background-color: rgb(9, 175, 56);
+}
+.zero{
+    grid-column: span 2;
+}
