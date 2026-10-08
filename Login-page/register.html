@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="auth-container">
+
+        <div class="auth-card">
+
+            <h1>Create Account</h1>
+
+            <p class="subtitle">
+                Register to access your dashboard
+            </p>
+
+            <form id="registerForm">
+
+                <div class="form-group">
+                    <label for="registerUsername">
+                        Username or Email
+                    </label>
+
+                    <input
+                        type="text"
+                        id="registerUsername"
+                        placeholder="Enter username or email"
+                    >
+                </div>
+
+
+                <div class="form-group">
+                    <label for="registerPassword">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="registerPassword"
+                        placeholder="Enter password"
+                    >
+                </div>
+
+
+                <p class="password-info">
+                    Password must contain at least 8 characters
+                    and 1 number.
+                </p>
+
+
+                <p id="registerMessage" class="message"></p>
+
+
+                <button type="submit" class="btn">
+                    Register
+                </button>
+
+            </form>
+
+
+            <p class="switch-page">
+                Already have an account?
+                <a href="index.html">Login</a>
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

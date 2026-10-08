@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #1e293b;
+}
+
+
+/* AUTH PAGES */
+
+.auth-container {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+
+.auth-card {
+    width: 100%;
+    max-width: 420px;
+
+    background-color: white;
+
+    padding: 35px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+.auth-card h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.subtitle {
+    text-align: center;
+
+    color: #64748b;
+
+    margin-bottom: 30px;
+}
+
+
+/* FORM */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.form-group label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+}
+
+
+.form-group input {
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+
+.form-group input:focus {
+    border-color: #0f766e;
+}
+
+
+.password-info {
+    font-size: 13px;
+
+    color: #64748b;
+
+    margin-bottom: 15px;
+
+    line-height: 1.5;
+}
+
+
+/* BUTTON */
+
+.btn {
+    width: 100%;
+
+    padding: 13px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background-color: #0f766e;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    background-color: #115e59;
+}
+
+
+/* MESSAGES */
+
+.message {
+    min-height: 20px;
+
+    margin-bottom: 15px;
+
+    font-size: 14px;
+}
+
+
+.success {
+    color: #15803d;
+}
+
+
+.error {
+    color: #dc2626;
+}
+
+
+/* SWITCH LOGIN / REGISTER */
+
+.switch-page {
+    text-align: center;
+
+    margin-top: 20px;
+
+    color: #64748b;
+}
+
+
+.switch-page a {
+    color: #0f766e;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+
+/* DASHBOARD */
+
+.dashboard {
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+}
+
+
+.dashboard-card {
+    width: 100%;
+
+    max-width: 500px;
+
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 12px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+.dashboard-card h1 {
+    margin-bottom: 20px;
+}
+
+
+.dashboard-card p {
+    margin-bottom: 15px;
+
+    color: #64748b;
+}
+
+
+.logout-btn {
+    margin-top: 20px;
+}
